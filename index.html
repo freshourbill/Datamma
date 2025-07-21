@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4068431944041608"
+          crossorigin="anonymous"></script>
   <meta charset="UTF-8">
   <title>Data MMA</title>
   <style>
@@ -10,6 +12,24 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 20px;
+    }
+    .side-ad {
+      position: fixed;
+      top: 120px;
+      width: 160px;
+      height: 600px;
+      z-index: 9999;
+    }
+    .left-ad {
+      left: 0;
+    }
+    .right-ad {
+      right: 0;
+    }
+    @media screen and (max-width: 1200px) {
+      .side-ad {
+        display: none;
+      }
     }
     header {
       background-color: #1f1f1f;
@@ -102,10 +122,40 @@
     }
   </style>
 </head>
+
 <body>
-<header>
-  <h1>UFC Data</h1>
-</header>
+
+  <div class="side-ad left-ad">
+  <!-- Data MMA Left -->
+  <ins class="adsbygoogle"
+       style="display:block; width:160px; height:600px"
+       data-ad-client="ca-pub-4068431944041608"
+       data-ad-slot="5812146521"
+       data-ad-format="auto"
+       data-full-width-responsive="false"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
+
+
+<div class="side-ad right-ad">
+  <!-- Data MMA Right -->
+  <ins class="adsbygoogle"
+       style="display:block; width:160px; height:600px"
+       data-ad-client="ca-pub-4068431944041608"
+       data-ad-slot="5812146521"
+       data-ad-format="auto"
+       data-full-width-responsive="false"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
+
+  <!-- HEADER AND CONTENT -->
+  <header>
+    <h1>UFC Data</h1>
+  </header>
 
 <div class="top-buttons">
   <a href="#">Match Up</a>
@@ -651,3 +701,4 @@
 
 </body>
 </html>
+
